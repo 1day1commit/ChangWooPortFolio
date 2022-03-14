@@ -1,0 +1,172 @@
+
+.navbar {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    background-color:rgba(0,0,0,0.4);
+}
+.background .img-fluid{
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    .heading-content{
+        margin-top: -180px;
+        font-size: xx-small;
+    }
+    .navbar-toggler{
+        float: right;
+    }
+  }
+
+.heading-content{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.heading-content h5{
+    font-size: 2em;
+    font-weight: 300;
+    font-family: 'Lato';
+    color: rgb(245, 245, 245);
+}
+.heading-content h1{
+    font-size: 4em;
+    font-weight:400;
+    letter-spacing: 0.02rem;
+    color: rgb(245, 245, 245);
+    font-family: 'Open Sans';
+}
+.heading-content p{
+    font-size: 1.2em;
+    font-style: oblique;
+    color: rgb(245, 245, 245);
+    font-family: 'Open Sans';
+}
+
+.post-heading h3{
+    margin-top: 50px;
+    font-size: 2em;
+    font-family: 'Bebas Neue';
+    color: rgb(75, 75, 75);
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.about .img-fluid{
+    border-radius: 10px 100px;
+    height: 400px;
+    width: 80%;
+    margin: 50px 70px 50px;
+}
+.about .row p{
+    font-family: 'Caveat';
+    font-weight: lighter;
+    font-size: 1.7em;
+    color: rgb(75, 75, 75);
+    margin: 50px 70px 50px;
+}
+
+.skills .parallax-header{
+    margin-top: 100px;
+    background: #000;
+    background: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ),
+    url(img/hongkong2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.skills .card{
+    background-color: rgb(168, 168, 168);
+    border-radius: 10%;
+    margin: 100px auto;
+    border-style: hidden;
+    max-width: 18em;
+    max-height: 20em;
+}
+.skills .card-header{
+    font-family: 'Permanent Marker';
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.skills .card-text{
+    margin:-10px 0 20px;
+    font-family: 'Montserrat';
+    font-size: 1.2em;
+}
+.skills .progress-bar{
+    background-color: rgb(80, 80, 80);
+}
+
+.experience .parallax-header{
+    margin-top: 70px;
+    background: #000;
+    background: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ),
+    url(img/hongkong3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.experience .card{
+    background-color: rgb(165, 165, 165);
+    border-radius: 20%;
+    max-width: 30em;
+    height: 26em;
+    margin: 120px auto;
+}
+.experience .card-text{
+    margin: 25px 10px 20px;
+}
+.experience .card-text h2{
+    font-size: 1.7em;
+    font-family:'Smooch Sans';
+    font-weight: bold;
+}
+.experience .card-text h4{
+    font-size: 1.2em;
+    font-family: 'Smooch Sans';
+}
+.experience .card-text h5{
+    font-size: 0.9em;
+    color: #f0f0f0;
+    font-family: 'Smooch Sans';
+}
+.experience .img-fluid{
+    margin: 10px auto;
+    margin-bottom: -40px !important;
+    align-items: center;
+    border-radius: 40%;
+    border-style: none;
+    width:12em;
+    height:11em;
+}
+footer {
+    background: #061D25;
+    padding: 10px 0;
+    text-align: center;
+}
+footer a {
+    color: #70726F;
+    font-size: 20px;
+    padding: 10px;
+}
+.contact span{
+    font-size: 1.6em;
+    font-family: 'Lobster';
+}
+.contact .contactBox{
+    font-family: 'Lato';
+    background-color: rgb(199, 199, 199);
+    margin: -25px 0 -18px;
+}
