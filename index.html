@@ -3,35 +3,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Lato:ital@1&family=Lobster&family=Lora:ital,wght@0,500;1,500&family=Montserrat:ital@0;1&family=Noto+Sans&family=Open+Sans:ital,wght@0,400;1,500&family=Permanent+Marker&family=Smooch+Sans:wght@300;400&display=swap"
-    rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Lato&family=Nanum+Gothic+Coding&family=Open+Sans:ital,wght@0,400;1,300&family=Permanent+Marker&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Lato&family=Nanum+Gothic+Coding&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;1,100;1,200;1,300;1,400;1,800&family=Open+Sans:ital,wght@0,400;1,300&family=Permanent+Marker&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <!-----------------------------navBar starts--------------------------------------->
 <body>
-  <nav class="navbar navbar-expand-md fixed-top bg-faded navbar-dark justify-content-center">
+  <nav class="navbar navbar-expand-md fixed-top bg-faded navbar-dark text-center justify-content-center" >
     <ul class="navbar-nav">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon" style="width: 3vw;"></span>
       </button>
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <div class="navbar-nav">
           <li class="home">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#">About</a>
           </li>
-          <li class="skills">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="experience">
+          <li class="experience_link">
             <a class="nav-link" href="#experience">Experience</a>
           </li>
-          <li class="contact">
+          <li class="skills_link">
+            <a class= "nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="contact_link">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
         </div>
@@ -40,13 +38,14 @@
   </nav>
 <!-----------------------------navBar ends--------------------------------------->
 
-<!----------------------------background photo starts---------------------------->
+<!----------------------------background photo starts- s--------------------------->
   <div class="background">
-    <img src="img/me.jpg" class="img-fluid">
-    <div class="heading-content text-center">
-      <h5>Hello, This is</h5>
-      <h1>ChangWoo Choi</h1>
-      <p>AN ENTHUSIASTIC LEARNER</p>
+    <img src="img/me2.png" id="img-fluid">
+    <div class="heading-content">
+      I am Terry Choi,<br>
+      A Creative Student Developer.
+      <span id="feature-text"></span>
+      <span class="input-cursor"></span>
     </div>
   </div>
 <!-----------------------------background photo ends--------------------------------------->
@@ -54,193 +53,212 @@
 <!-----------------------------About(Home) starts--------------------------------------->
 <div id="about" class="about">
     <div class=" post-heading text-center">
-      <h3>Who am I?</h3>
+      About()
     </div>
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-12 ">
-        <img src="img/hongkong.jpg" class="img-fluid">
-      </div>
-      <div class="col-lg-6 col-md-6 col-12 ">
-        <p> An enthusiastic learner from South Korea, always learns with an energetic and inquisitive attitude. Currently
-          studying information technology in The Hong Kong Polytechnic University, since 2018. After two years of
-          compulsory military service in Korea from 2020 to 2021, I am studying Year 2 at the moment. I am interested in
-          web/app development, especially front-end development.</p>
-      </div>
+    <div class="intro">
+        <p> An <span style="font-weight:400;">Enthusiastic Student</span>, <span style="font-weight:400;">Inquisitive Learner</span> and <span style="font-weight:400;">Fast Adapter</span> interested in Frontend Web development, UI / UX design with relevant work Experiences. Currently studying my third year of bachelor’s in information technology at The Hong Kong Polytechnic University. Seeking to leverage my collaboration, communication, and programming skills in different fields.</p>
     </div>
   </div>
 <!-----------------------------About(Home) ends--------------------------------------->
 
-<!-----------------------------Skills starts--------------------------------------->
-<div id="skills" class="skills">
-    <div class=" post-heading text-center">
-      <h3>Skills</h3>
-    </div>
-    <div class="parallax-header">
-      <div class="row g-3">
-        <div class="card border-dark col-12 col-lg-4">
-          <div class="card-header">Languages</div>
-          <div class="card-body text-dark">
-            <h4 class="card-text">
-              Korean(native):
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-                  style="width:100%">
-                </div>
-              </div>
-              English(advanced):
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-                  style="width:90%">
-                </div>
-              </div>
-              Chinese(advanced):
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-                  style="width:85%">
-                </div>
-              </div>
-            </h4>
-          </div>
-        </div>
-        <div class="card border-dark col-12 col-lg-4">
-          <div class="card-header">Programming</div>
-          <div class="card-body text-dark">
-            <h4 class="card-text">
-              C
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-                  style="width:77%">
-                </div>
-              </div>
-              Java:
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-                  style="width:72%">
-                </div>
-              </div>
-              Python:
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-                  style="width:70%">
-                </div>
-              </div>
-              shell script:
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-                  style="width:65%">
-                </div>
-              </div>
-            </h4>
-          </div>
-        </div>
-        <div class="card border-dark col-12 col-lg-4">
-          <div class="card-header">Web Programming</div>
-          <div class="card-body text-dark">
-            <h4 class="card-text">
-              html / css
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-                  style="width:70%">
-                </div>
-              </div>
-              javascript
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-                  style="width:60%">
-                </div>
-              </div>
-              React.js / Node.js
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-                  style="width:55%">
-                </div>
-              </div>
-              mySQL / mongoDB:
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-                  style="width:45%">
-                </div>
-              </div>
-            </h4>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-----------------------------Skills ends--------------------------------------->
 
   <!-----------------------------Experience starts--------------------------------------->
   <div id="experience" class="experience">
-    <div class=" post-heading text-center">
-      <h3>Experience</h3>
+    <div class="post-heading text-center">
+      Experience()
     </div>
-    <div class="parallax-header">
-      <div class="row g-2">
-       <div class="card">
-        <img src="img/signal.jpg" class="img-fluid  col-12 col-md-6">
-         <div class="card-body">
+
+      <div class="internship">
+        <div class="card-body">
           <div class= "card-text">
-            <h2>Signal Operator:</h2>
-            <h5>Republic of Korean Army (ROKA) /June 2020 - December 2021</h5>
-            <h4>Republic of Korean Army, assigned as a signal operator that deals with army communication, such as  preventive maintenance on communication equipment, and activating communication between subordinary units in the brigade.</h4> 
+            <h2>UI / UX Engineer</h2>
+            <h5>The Hong Kong Polytechnic University, Hong Kong / Aug 2022 - Oct 2022</h5>
+
+            <h4>
+              Worked as a part-time Student Assistant in Information Technology Services Office (ITS) in The Hong Kong Polytechnic University.<br>
+              <span style="font-style:italic;">
+                • Responsible for UI / UX, App logo, branding design for the new mobile application for students in The Hong Kong Polytechnic University<br>
+                • Designed 50+ User Interface pages, and 20+ App logos. <br>
+                • Communication with project manager and assisted App developers on App implementation on the client side using React native, Vanilla JavaScript, Android Studio, etc.   <br>
+            </h4> 
+          </div>
+        </div>
+        <img src="img/uiux.png" id="ptImg">
+
+       </div>
+
+
+       <div class="internship">
+        <img src="img/wealthskey.png" id="internImg">
+        <div class="card-body">
+          <div class= "card-text">
+            <h2>Web Developer</h2>
+            <h5>Wealthskey Limited, Hong Kong / May 2022 - July 2022</h5>
+            <h4>
+              Worked as an intern in a start-up company that provides immigration, education and IT related services and solutions.<br>
+              This project is a request from a client, which is to build a E-commerce website for the client's company, 
+              designed and implemented completely by myself.<br>
+              <span style="font-style:italic; ">
+                • UI / UX design, logo branding design renewal<br>
+                • Frontend Web development and implementation using html / css(scss) / node.js / react.js, etc <br>
+                • Utilization of various libraries such as React Router for page routing, il8next for implementation of Multi-language function.<br>
+                • Web hosting & publishing using netlify, Godaddy
+              </span>
+            </h4> 
+            <a href="https://www.charter-rich.com/" style="color:#7DB7FF; padding-left:0%;"><i class="fa fa-link" style="font-size:4vw"></i></a>
+            <a href="https://github.com/1day1commit/CharterRich"style="color:#7DB7FF"><i class="fa fa-github" style="font-size:4vw"></i></a>
           </div>
         </div>
        </div>
-       <div class="card">
-        <img src="img/manager.jpg" class="img-fluid  col-12 col-md-6">
-         <div class="card-body">
-          <div class= "card-text">
-            <h2>Refugee case manager</h2>
-            <h5>Seoul immigration office / January 2020 - May 2020</h5>
-            <h4>Helped foreign refugees for their acceptance to South Korea, managed their personal information and mainly worked on databases and documentation.</h4>    
-          </div>  
+
+        <div class= "card-text">
+          <h2>Signal Operator</h2>
+          <h5>Republic of Korean Army (ROKA), Korea / Jun 2020 - Dec 2021</h5>
+          <h4>During my compulsory military service in Korea, assigned as a signal operator that deals with army communication, such as  preventive maintenance on communication equipment, and activating communication between subordinary units in the brigade.</h4> 
         </div>
-       </div>
-      </div>
-    </div>
+
+        <div class= "card-text">
+          <h2>Refugee case manager</h2>
+          <h5>Seoul immigration office, Korea/ Jan 2020 - May 2020</h5>
+          <h4>Helped foreign refugees for their acceptance to South Korea, managed their personal information and mainly worked on databases and documentation.</h4>    
+        </div>  
+    
   </div>
   <!-----------------------------Experience ends--------------------------------------->
-
-  <!-----------------------------Footer starts--------------------------------------->
-  <div id="contact" class="contact">
-  <footer class="text-center bg-dark text-lg-start text-muted">
-    <section
-      class="d-flex justify-content-center justify-content-lg-between p-3">
-      <div class="me-5  d-lg-block">
-        <span>Get connected with me on social networks!</span>
+<!-----------------------------Skills starts--------------------------------------->
+<section id="skills" class="skills">
+  <div class="post-heading text-center">
+    Skills()
+  </div>
+  <div class="skill-header">KEY SKILLS</div>
+  <div class="skill-boxes">
+    <div class="skill-box">
+      <span class="skill-subTitle">html / css</span>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+          style="width:90%">
+        </div>
       </div>
+    </div>
 
-      <div>
-        <a href='https://www.instagram.com/chaaaangwoo'><i class="fa fa-instagram"></i></a>
-        <a href='https://www.facebook.com/profile.php?id=100007825336628'><i class="fa fa-facebook"></i></a>
-        <a href='https://github.com/1day1commit'><i class="fa fa-github"></i></a>
+    <div class="skill-box">
+      <span class="skill-subTitle">JavaScript</span>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+          style="width:80%">
+        </div>
       </div>
-      </footer>
-    </section>
+    </div>
 
-    <section class="contactBox">
-      <div class="container mt-4">
-          <div class=" col-lg-6">
-            <h6 class="text-uppercase fw-bold mb-4">
-              Contact
-            </h6>
-            <p>
-              <i class="fa fa-envelope-o me-3"></i>
-              changwoochoi2@gmail.com
-            </p>
-            <p><i class="fa fa-phone me-3"></i> + 852 6894 4604</p>
-            <p><i class="fa fa-phone me-3"></i> + 82 10 8552 0493</p>
+    <div class="skill-box">
+      <span class="skill-subTitle">React.js</span>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+          style="width:75%">
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-box">
+      <span class="skill-subTitle">Python</span>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+          style="width:75%">
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-box">
+      <span class="skill-subTitle">C / C++</span>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+          style="width:70%">
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-box">
+      <span class="skill-subTitle">Java</span>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+          style="width:65%">
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+ </div>
+  <div class="skill-header">LANGUAGES</div>
+    <div class="skill-boxes">
+      <div class="skill-box">
+        <span class="skill-subTitle">English</span>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+            style="width:95%">
           </div>
         </div>
-    </section>
+      </div>
+  
+      <div class="skill-box">
+        <span class="skill-subTitle">Chinese(PutongHua)</span>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+            style="width:95%">
+          </div>
+        </div>
+      </div>
+  
+      <div class="skill-box">
+        <span class="skill-subTitle">Korean</span>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
+            style="width:100%">
+          </div>
+        </div>
+      </div>
+   </div>
+  <div class="skill-header">OTHER SKILLS & KNOWLEDGE</div>
+  <h3 class="skill-others">Git Version Control, Figma, Wordpress, Web Hosting & Publishing, SQL, MongoDB, and... More to Come!</h3>
+</section>
+
+<!-----------------------------Skills ends--------------------------------------->
+  <!-----------------------------Footer starts--------------------------------------->
+
+  <div id="contact" class="contact">
+    <div class="post-heading text-center">
+      Contact()
+    </div>
+    <div class="contact_box">
+      <div class="contact-headers">
+
+      <span>
+        <i class="fa fa-envelope-o me-3"style="color: #7DB7FF; font-size:2vw"></i>
+        changwoochoi2@gmail.com
+      </span>
+      <span>
+        <i class="fa fa-phone me-3"style="color: #7DB7FF; font-size:2vw"></i> + 852 6894 4604</p>
+      </span>
+      <div class="contact-header"> Download my <a href="./img/cv.pdf" download style="color:#7DB7FF ;">CV</a> </div>
+      <div class="contact-header"> This Website's <a href="https://github.com/1day1commit/ChangWooPortFolio"style="color:#7DB7FF ;">Source Code</a></div>
+      
+      <!-- <p><i class="fa fa-phone me-3"></i> + 82 10 8552 0493</p> -->
+    </div>
+  
+      <div class="snsIcons">
+        <a href='https://www.instagram.com/chaaaangwoo'><i class="fa fa-instagram" style="color: #7DB7FF; font-size:5vw"></i></a>
+        <a href='https://www.facebook.com/profile.php?id=100007825336628'><i class="fa fa-facebook" style="color: #7DB7FF; font-size:5vw"></i></a>
+        <a href='https://github.com/1day1commit'><i class="fa fa-github"style="color: #7DB7FF; font-size:5vw"></i></a>
+        <a href='https://www.linkedin.com/in/choi-chang-woo-terry-5898b2233/'><i class="fa fa-linkedin"style="color: #7DB7FF; font-size:5vw"></i></a>
+      </div>
+    </div>
+
   </div>
 
-
-    <div class="text-center p-4" style="background-color: rgb(148, 148, 148);">
-      © 2022 Copyright: CHOI ChangWoo
-
-  </footer>
   <!-----------------------------Footer ends--------------------------------------->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
 </body>
 </html>
