@@ -23,10 +23,11 @@ font-family: 'Roboto', sans-serif; */
     padding-bottom:5%;
 }
 #img-fluid{
-    border-radius: 80% 80% 80% 80%;
+    border-radius: 0 0 70% 70%;
     margin-left:10%;
-    width:30vw;
-    height: 30vw;
+    width: 400px;
+    height: 500px;
+
 }
 
 
@@ -41,7 +42,7 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .post-heading {
-    font-size: 3.5vw;
+    font-size: 35px;
     font-family: 'Nanum Gothic Coding', monospace;
     color: rgb(75, 75, 75);
     padding-top:5%;
@@ -57,7 +58,7 @@ font-family: 'Roboto', sans-serif; */
     margin-left:5%;
     margin-right:5%;
     font-weight: 200;
-    font-size: 2vw;
+    font-size: 24px;
     color: rgb(75, 75, 75);
 
 }
@@ -89,15 +90,15 @@ font-family: 'Roboto', sans-serif; */
     font-family: 'Noto Sans', sans-serif;
 }
 .experience .card-text h2{
-    font-size: 3vw;
+    font-size: 28px;
     font-weight: 400;
 }
 .experience .card-text h4{
-    font-size: 1.6vw;
+    font-size: 20px;
     font-weight: 200;
 }
 .experience .card-text h5{
-    font-size: 1.8vw;  
+    font-size: 20px;  
     font-weight: 300;
     font-style: italic;
     color: #828282;
@@ -109,7 +110,7 @@ font-family: 'Roboto', sans-serif; */
 .skill-header{
     margin-left: 5%;
     padding-bottom: 1%;
-    font-size: 2.3vw;
+    font-size: 28px;
     font-family: 'Caveat', sans-serif;
 }
 
@@ -127,7 +128,7 @@ font-family: 'Roboto', sans-serif; */
     width: 40%;
 }
 .skill-subTitle{
-    font-size: 2vw;
+    font-size: 20px;
     font-family: 'Lato', sans-serif;
 
 }
@@ -137,7 +138,7 @@ font-family: 'Roboto', sans-serif; */
 .skill-others{
     font-family:'Roboto';
     font-weight: 200;
-    font-size: 2.4vw;
+    font-size: 28px;
     color: rgb(75, 75, 75);
     margin-left: 5%;
     margin-right: 5%;
@@ -156,10 +157,11 @@ font-family: 'Roboto', sans-serif; */
 }
 .contact-headers{
     font-family: 'Noto Sans', sans-serif;
-    font-size: 2.5vw;
+    font-size: 24px;
     font-weight: 300;
     font-style: italic;
     display: flex;
+    flex-wrap: nowrap;
     margin-left: 5%;
     /* margin-right: 5%; */
     border-right: 1px solid rgb(202, 202, 202);
@@ -191,7 +193,8 @@ font-family: 'Roboto', sans-serif; */
 
     }
     #img-fluid{
-        width:35vw;
+        width: 25vw;
+        height: 30vw;
     }
 
     .heading-content{
@@ -244,7 +247,10 @@ font-family: 'Roboto', sans-serif; */
         font-size: 3vw;
     }
     .contact-header{
-        font-size: 3vw;
+        font-size: 18px;
+    }
+    .contact-headers span{
+        font-size: 18px;
     }
     .snsIcons{
         width: 40%;
