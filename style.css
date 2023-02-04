@@ -161,9 +161,7 @@ font-family: 'Roboto', sans-serif; */
     font-weight: 300;
     font-style: italic;
     display: flex;
-    flex-wrap: nowrap;
-    margin-left: 5%;
-    /* margin-right: 5%; */
+    margin-left: 2%;
     border-right: 1px solid rgb(202, 202, 202);
     width: 45%;
     flex-direction: column;
@@ -178,15 +176,13 @@ font-family: 'Roboto', sans-serif; */
     align-items: center;
 }
 .contact-header{
+    display: flex;
     margin-left: 5%;
     margin-right: 5%;
     padding-bottom: 1%;
 }
 
 
-.contact .fa{
-    margin-left: 5%;
-}
 @media only screen and (max-width: 768px) {
     .background {
         height:50vw;
@@ -247,12 +243,20 @@ font-family: 'Roboto', sans-serif; */
         font-size: 3vw;
     }
     .contact-header{
-        font-size: 18px;
+        font-size: 12px;
     }
     .contact-headers span{
-        font-size: 18px;
+        display: inline;
+        white-space: nowrap;
+        font-size: 12px;
+    }
+    .contact-headers{
+        width: 50%;
     }
     .snsIcons{
         width: 40%;
+    }
+    .snsIcons .fa{
+        font-size: 4px;
     }
   }
