@@ -11,30 +11,32 @@ font-family: 'Roboto', sans-serif; */
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    background-color:rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     margin-bottom: 20%;
 }
+
 .background {
     background-color: aliceblue;
     width: 100%;
-    display:flex;
+    display: flex;
     position: relative;
-    padding-top:10%;
-    padding-bottom:5%;
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
-#img-fluid{
+
+#img-fluid {
     border-radius: 0 0 70% 70%;
-    margin-left:10%;
+    margin-left: 10%;
     width: 300px;
     height: 400px;
 
 }
 
 
-.heading-content{
+.heading-content {
     font-family: 'Lato', sans-serif;
     margin-top: 10%;
-    margin-left:10%;
+    margin-left: 10%;
     font-size: 3vw;
     font-weight: 800;
     color: #000;
@@ -45,98 +47,108 @@ font-family: 'Roboto', sans-serif; */
     font-size: 35px;
     font-family: 'Nanum Gothic Coding', monospace;
     color: rgb(75, 75, 75);
-    padding-top:5%;
-    padding-bottom:5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-.about{
-    padding-bottom:5%;
+.about {
+    padding-bottom: 5%;
 }
-.about .intro{
-    text-align:left; 
-    font-family:'Roboto';
-    margin-left:5%;
-    margin-right:5%;
+
+.about .intro {
+    text-align: left;
+    font-family: 'Roboto';
+    margin-left: 5%;
+    margin-right: 5%;
     font-weight: 200;
     font-size: 24px;
     color: rgb(75, 75, 75);
 
 }
 
-.experience{
+.experience {
     background-color: #f6f6f6;
 }
 
-.internship{
-    display:flex;
+.internship {
+    display: flex;
     padding-bottom: 10%;
 }
 
 
 #ptImg {
     margin-right: 5%;
-    width:44%;
-}
-#internImg {
-    margin-left:5%;
-    margin-right:5%;
-    width:40%;
+    width: 44%;
 }
 
-.card-text{
+#internImg {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+}
+
+.card-text {
     padding-bottom: 5%;
     padding-left: 5%;
     margin-right: 5%;
     font-family: 'Noto Sans', sans-serif;
 }
-.experience .card-text h2{
+
+.experience .card-text h2 {
     font-size: 28px;
     font-weight: 400;
 }
-.experience .card-text h4{
+
+.experience .card-text h4 {
     font-size: 20px;
     font-weight: 200;
 }
-.experience .card-text h5{
-    font-size: 20px;  
+
+.experience .card-text h5 {
+    font-size: 20px;
     font-weight: 300;
     font-style: italic;
     color: #828282;
 }
 
-.skills{
+.skills {
     background-color: rgb(253, 253, 253);
 }
-.skill-header{
+
+.skill-header {
     margin-left: 5%;
     padding-bottom: 1%;
     font-size: 28px;
     font-family: 'Caveat', sans-serif;
 }
 
-.skill-boxes{
+.skill-boxes {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 5%;
 
 }
-.skill-box{
+
+.skill-box {
     display: flex;
     flex-direction: column;
     margin-left: 5%;
     margin-right: 5%;
     width: 40%;
 }
-.skill-subTitle{
+
+.skill-subTitle {
     font-size: 20px;
     font-family: 'Lato', sans-serif;
 
 }
-.skills .progress-bar{
+
+.skills .progress-bar {
     background-color: #7DB7FF;
 }
-.skill-others{
-    font-family:'Roboto';
+
+.skill-others {
+    font-family: 'Roboto';
     font-weight: 200;
     font-size: 28px;
     color: rgb(75, 75, 75);
@@ -148,26 +160,29 @@ font-family: 'Roboto', sans-serif; */
 
 
 
-.contact{
+.contact {
     background-color: rgb(243, 243, 243);
     padding-bottom: 10%;
 }
-.contact_box{
+
+.contact_box {
     display: flex;
 }
-.contact-headers{
+
+.contact-headers {
     font-family: 'Noto Sans', sans-serif;
     font-size: 24px;
     font-weight: 300;
     font-style: italic;
     display: flex;
-    margin-left: 2%;
+    margin-left: 5%;
     border-right: 1px solid rgb(202, 202, 202);
     width: 45%;
     flex-direction: column;
-    
+
 }
-.snsIcons{
+
+.snsIcons {
     margin-left: 5%;
     display: flex;
     width: 40%;
@@ -175,7 +190,8 @@ font-family: 'Roboto', sans-serif; */
     justify-content: space-evenly;
     align-items: center;
 }
-.contact-header{
+
+.contact-header {
     display: flex;
     margin-left: 5%;
     margin-right: 5%;
@@ -185,78 +201,98 @@ font-family: 'Roboto', sans-serif; */
 
 @media only screen and (max-width: 768px) {
     .background {
-        height:50vw;
+        height: 50vw;
 
     }
-    #img-fluid{
+
+    #img-fluid {
         width: 25vw;
         height: 30vw;
     }
 
-    .heading-content{
-        margin-top:5%;
+    .heading-content {
+        margin-top: 5%;
         margin-right: 5%;
         font-size: 1.1rem;
 
     }
-    .card-text{
+
+    .card-text {
         padding-bottom: 1%;
     }
+
     .post-heading {
-        font-size:5vw;
+        font-size: 5vw;
 
     }
-    .about .intro{
+
+    .about .intro {
         font-size: 3vw;
     }
-    .ui{
+
+    .ui {
         flex-direction: column-reverse;
     }
-    .ws{
+
+    .ws {
         flex-direction: column;
     }
-    #ptImg, #internImg {
+
+    #ptImg,
+    #internImg {
         margin-left: 25%;
         width: 50%;
     }
-    .experience{
+
+    .experience {
         padding-bottom: 5%;
     }
-    .experience .card-text h2{
+
+    .experience .card-text h2 {
         font-size: 3.7vw;
-    }
-    .experience .card-text h4{
-        font-size: 2.4vw;
-    }
-    .experience .card-text h5{
-        font-size: 2.8vw;  
     }
 
-    .skill-header{
+    .experience .card-text h4 {
+        font-size: 2.4vw;
+    }
+
+    .experience .card-text h5 {
+        font-size: 2.8vw;
+    }
+
+    .skill-header {
         font-size: 3.7vw;
     }
-    .skill-subTitle{
+
+    .skill-subTitle {
         font-size: 3vw;
         font-family: 'Lato', sans-serif;
     }
-    .skill-others{
+
+    .skill-others {
         font-size: 3vw;
     }
-    .contact-header{
-        font-size: 12px;
+
+    .contact-header {
+        font-size: 16px;
     }
-    .contact-headers span{
+
+    .contact-headers span {
         display: inline;
         white-space: nowrap;
-        font-size: 12px;
+        font-size: 16px;
     }
-    .contact-headers{
+
+
+    .contact-headers {
         width: 50%;
     }
-    .snsIcons{
+
+    .snsIcons {
         width: 40%;
     }
-    .snsIcons .fa{
+
+    .snsIcons .fa {
         font-size: 4px;
     }
-  }
+}
