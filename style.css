@@ -40,8 +40,38 @@ font-family: 'Roboto', sans-serif; */
     font-size: 3vw;
     font-weight: 800;
     color: #000;
+    display: inline-block;
     transition: all 1s;
+
 }
+
+#intro-text {
+    color: #7f4deb;
+}
+
+#intro-cursor {
+
+    opacity: 1;
+    animation: cursor-blink 0.7s infinite alternate;
+}
+
+@keyframes cursor-blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+/* #intro-cursor {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    opacity: 1;
+    animation: cursor-blink 0.7s infinite alternate;
+} */
 
 .post-heading {
     font-size: 35px;
