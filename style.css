@@ -114,7 +114,7 @@ font-family: 'Roboto', sans-serif; */
 
 .internship {
     display: flex;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 
@@ -130,7 +130,7 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .card-text {
-    padding-bottom: 5%;
+    /* padding-bottom: 5%; */
     padding-left: 5%;
     margin-right: 5%;
     font-family: 'Noto Sans', sans-serif;
@@ -151,6 +151,32 @@ font-family: 'Roboto', sans-serif; */
     font-weight: 300;
     font-style: italic;
     color: #828282;
+
+}
+
+.projects {
+    background-color: #eff3f3;
+}
+
+.projects .card-text h2 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.projects .card-text h4 {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.projects .card-text h5 {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    color: #828282;
+}
+
+.internship_last {
+    padding-bottom: 10%;
 }
 
 .skills {
