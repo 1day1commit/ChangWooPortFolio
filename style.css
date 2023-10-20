@@ -4,6 +4,11 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Permanent Marker', cursive;
 font-family: 'Nanum Gothic Coding', monospace;
 font-family: 'Roboto', sans-serif; */
+.small-line-break {
+    display: block;
+    height: 0.1em;
+    margin-bottom: -.4em;
+}
 
 .navbar {
     font-family: 'Open Sans', sans-serif;
@@ -121,6 +126,8 @@ font-family: 'Roboto', sans-serif; */
 #ptImg {
     margin-right: 5%;
     width: 44%;
+    /* height: 40%; */
+
 }
 
 #internImg {
@@ -167,6 +174,7 @@ font-family: 'Roboto', sans-serif; */
     font-size: 20px;
     font-weight: 200;
 }
+
 
 .projects .card-text h5 {
     font-size: 20px;
@@ -220,7 +228,7 @@ font-family: 'Roboto', sans-serif; */
     font-weight: 200;
     font-size: 28px;
     color: rgb(75, 75, 75);
-    margin-left: 5%;
+
     margin-right: 5%;
     padding-bottom: 5%;
 }
@@ -266,6 +274,31 @@ font-family: 'Roboto', sans-serif; */
     padding-bottom: 1%;
 }
 
+@media (max-width: 1200px) {
+    .projects .card-text h4 {
+        font-size: 1.8vw;
+    }
+
+    #appstore,
+    #googleplay {
+        width: 30%;
+    }
+
+    .projects .card-text h5 {
+        font-size: 1.8vw;
+    }
+
+    .projects .card-text h2 {
+        font-size: 2.0vw;
+    }
+
+    #ptImg {
+        margin-right: 5%;
+        width: 44%;
+        height: 40%;
+
+    }
+}
 
 @media only screen and (max-width: 768px) {
     .background {
@@ -298,6 +331,8 @@ font-family: 'Roboto', sans-serif; */
         font-size: 3vw;
     }
 
+
+
     .ui {
         flex-direction: column-reverse;
     }
@@ -311,6 +346,8 @@ font-family: 'Roboto', sans-serif; */
         margin-left: 25%;
         width: 50%;
     }
+
+
 
     .experience {
         padding-bottom: 5%;
@@ -328,7 +365,24 @@ font-family: 'Roboto', sans-serif; */
         font-size: 2.8vw;
     }
 
+    .projects {
+        padding-bottom: 5%;
+    }
+
+    .projects .card-text h2 {
+        font-size: 3.7vw;
+    }
+
+    .projects .card-text h4 {
+        font-size: 2.4vw;
+    }
+
+    .projects .card-text h5 {
+        font-size: 2.8vw;
+    }
+
     .skill-header {
+
         font-size: 3.7vw;
     }
 

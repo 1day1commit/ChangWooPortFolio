@@ -1,13 +1,4 @@
-// const cards = document.querySelector(".heading-content");
-// const observer = new IntersectionObserver((entries) => {
-//   entries.forEach((entry) => {
-//     entry.target.classList.toggle("show", entry.isIntersecting);
-//   });
-// });
 
-// cards.forEach((card) => {
-//   observer.observe(card);
-// });
 
 const textElement = document.getElementById("intro-text");
 const texts = ["writes codes.", "thinks out of the box.", "solves problems."];
